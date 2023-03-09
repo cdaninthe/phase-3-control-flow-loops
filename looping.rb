@@ -24,7 +24,7 @@ end
 def fizzbuzz_printer
   # your code here
   num = 1
-  until num == 100
+  while num <= 100 do
     puts fizzbuzz(num)
     num += 1
   end
